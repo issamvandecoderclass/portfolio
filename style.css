@@ -1,0 +1,40 @@
+#container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 3fr 3fr 1fr;
+  grid-template-areas: "hoofd hoofd hoofd"
+                       "menu midden1 fotos"
+                       "voet voet voet";
+}
+
+#bovenbalk {
+  grid-area: hoofd;
+  height: 50px;
+}
+
+#menu {
+  background-color: black;
+  grid-area: menu;
+}
+
+#centrum1 {
+  grid-area: midden1;
+}
+
+
+#rechterkolom {
+  grid-area: fotos;
+}
+
+#footer {
+  grid-area: voet;
+  background-color: black;
+}
+
+.name{
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+}
