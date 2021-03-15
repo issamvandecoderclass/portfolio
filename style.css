@@ -46,3 +46,12 @@ h1 {
   font-family: 'Bebas Neue', cursive;
   color: white;
 }
+
+p {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.copyright{
+  color: white;
+  text-align: center;
+}
