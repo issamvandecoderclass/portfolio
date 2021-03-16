@@ -106,13 +106,17 @@ a {
   background-color: black;
 }
 
+.social {
+  text-align: center;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
   width: 15px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 100px 2px;
   border-radius: 50%;
   justify-content: center;
 }
@@ -127,22 +131,36 @@ a {
 }
 
 .fa-twitter {
-  background: grey;
-  color: white;
+  background-color: #e3e3e3;
+  color: #3691e0;
 }
 
 .fa-linkedin {
-  background: grey;
-  color: white;
+  background-color: #e3e3e3;
+  color: #3691e0;
 }
 
 .fa-instagram {
-  background: grey;
-  color: white;
+  background-color: #e3e3e3;
+  color: #fa64e8;
 }
 
 .fa-snapchat-ghost {
-  background: grey;
-  color: white;
+  background-color: #e3e3e3;
+  color: #f6ff4d;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-github {
+  background-color: #e3e3e3;
+  color: grey;
+}
+
+.fa-github {
+  background-color: #e3e3e3;
+  color: grey;
+}
+
+.contact_description{
+  text-align: center;
 }
