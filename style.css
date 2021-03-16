@@ -20,6 +20,10 @@ p {
   text-align: center;
 }
 
+.title_link{
+  text-decoration: none;
+}
+
 .copyright{
   color: white;
   text-align: center;
@@ -61,5 +65,6 @@ p {
 
 #footer {
   grid-area: voet;
+  height: 50px;
   background-color: black;
 }
