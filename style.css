@@ -1,3 +1,30 @@
+body {
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+}
+
+
+p {
+  font-family: 'Bebas Neue', cursive;
+}
+
+.name{
+  text-align: center;
+}
+
+.copyright{
+  color: white;
+  text-align: center;
+}
+
 #container {
   display: grid;
   grid-template-columns: 0.6fr 5fr 1fr;
@@ -29,29 +56,4 @@
 #footer {
   grid-area: voet;
   background-color: black;
-}
-
-body {
-  background-image: url("img/background.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-}
-
-.name{
-  text-align: center;
-}
-
-h1 {
-  font-family: 'Bebas Neue', cursive;
-  color: white;
-}
-
-p {
-  font-family: 'Bebas Neue', cursive;
-}
-
-.copyright{
-  color: white;
-  text-align: center;
 }
