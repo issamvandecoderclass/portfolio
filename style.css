@@ -56,6 +56,10 @@ a {
   text-shadow: 2px 2px 10px #FFFFFF;
 }
 
+.home_text {
+  text-align: center;
+}
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -95,10 +99,9 @@ a {
    top: -40px;
 }
 
-
-/*#rechterkolom {
+#rechterkolom {
   grid-area: fotos;
-}*/
+}
 
 #footer {
   grid-area: voet;
