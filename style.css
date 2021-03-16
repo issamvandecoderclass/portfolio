@@ -11,6 +11,11 @@ h1 {
   color: white;
 }
 
+h2 {
+  font-family: 'Bebas Neue', cursive;
+  color: white;
+  text-align: center;
+}
 
 p {
   font-family: 'Bebas Neue', cursive;
@@ -52,16 +57,22 @@ p {
 #menu {
   background-color: black;
   grid-area: menu;
+  height: 360px;
+  position: relative;
+  top: -40px;
 }
 
 #centrum1 {
   grid-area: midden1;
+   background: rgba(0, 0, 0, 0.8);
+   position: relative;
+   top: -40px;
 }
 
 
-#rechterkolom {
+/*#rechterkolom {
   grid-area: fotos;
-}
+}*/
 
 #footer {
   grid-area: voet;
